@@ -1,0 +1,14 @@
+/**
+*
+* style.css
+* @author- Arshath
+* @date- 30/11/2022
+*/
+section {
+    height: 100vh;
+    flex-direction: column;
+}
+.text {
+    font-size: 25px;
+    margin-bottom: 20px;
+}

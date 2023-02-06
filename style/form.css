@@ -1,0 +1,33 @@
+/**
+*
+* form.css
+* @author- Arshath
+* @date- 30/11/2022
+*/
+.btn-container {
+    margin-bottom: 10px;
+}
+.primay-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #27A9A0;
+}
+.secondary-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 22px;
+    color: #fff;
+    background-color: #27A9A0;
+}
+.space-btn {
+    padding: 10px;
+}
+.button-container {
+    padding: 15px 110px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #27A9A0;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="./style/index.css"/>
+</head>
+<body>
+    <section class="vh-center">
+        <button onclick="greeting(30)">Test</button>
+        <div id="typing" class="text"></div>
+        <div class="btn-container">
+            <button onclick="number('1')" class="primay-btn">1</button>
+            <button onclick="number('2')" class="primay-btn">2</button>
+            <button onclick="number('3')" class="primay-btn">3</button>
+            <button onclick="number('4')" class="primay-btn">4</button>
+            <button onclick="number('5')" class="primay-btn">5</button>
+            <button onclick="number('6')" class="primay-btn">6</button>
+            <button onclick="number('7')" class="primay-btn">7</button>
+            <button onclick="number('8')" class="primay-btn">8</button>
+            <button onclick="number('9')" class="primay-btn">9</button>
+            <button onclick="number('0')" class="primay-btn">0</button>
+            <button onclick="uncheck()" class="secondary-btn">delete</button>
+        </div>
+        <div class="btn-container">
+            <button onclick="number('Q')" id="q-btn" class="primay-btn">Q</button>
+            <button onclick="number('W')" id="w-btn" class="primay-btn">W</button>
+            <button onclick="number('E')" id="e-btn" class="primay-btn">E</button>
+            <button onclick="number('R')" id="r-btn" class="primay-btn">R</button>
+            <button onclick="number('T')" id="t-btn" class="primay-btn">T</button>
+            <button onclick="number('Y')" id="y-btn" class="primay-btn">Y</button>
+            <button onclick="number('U')" id="u-btn" class="primay-btn">U</button>
+            <button onclick="number('I')" id="i-btn" class="primay-btn">I</button>
+            <button onclick="number('O')" id="o-btn" class="primay-btn">O</button>
+            <button onclick="number('P')" id="p-btn" class="primay-btn">P</button>
+        </div>
+        <div class="btn-container">
+            <button onclick="number('A')" id="a-btn" class="primay-btn">A</button>
+            <button onclick="number('S')" id="s-btn" class="primay-btn">S</button>
+            <button onclick="number('D')" id="d-btn" class="primay-btn">D</button>
+            <button onclick="number('F')" id="f-btn" class="primay-btn">F</button>
+            <button onclick="number('G')" id="g-btn" class="primay-btn">G</button>
+            <button onclick="number('H')" id="h-btn" class="primay-btn">H</button>
+            <button onclick="number('J')" id="j-btn" class="primay-btn">J</button>
+            <button onclick="number('K')" id="k-btn" class="primay-btn">K</button>
+            <button onclick="number('L')" id="l-btn" class="primay-btn">L</button>
+        </div>
+        <div class="btn-container">
+            <button onclick="number('Z')" id="z-btn" class="primay-btn">Z</button>
+            <button onclick="number('X')" id="x-btn" class="primay-btn">X</button>
+            <button onclick="number('C')" id="c-btn" class="primay-btn">C</button>
+            <button onclick="number('V')" id="v-btn" class="primay-btn">V</button>
+            <button onclick="number('B')" id="b-btn" class="primay-btn">B</button>
+            <button onclick="number('N')" id="n-btn" class="primay-btn">N</button>
+            <button onclick="number('M')" id="m-btn" class="primay-btn">M</button>
+            <button onclick="small()" class="secondary-btn">shift</button>
+        </div>
+        <div class="space-btn">
+            <button onclick="number('&nbsp;')" class="button-container"></button>
+        </div>
+    </section>
+    <script src="./script/script.js"></script>
+</body>
+</html>
